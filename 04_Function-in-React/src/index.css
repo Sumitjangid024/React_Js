@@ -1,0 +1,39 @@
+* {
+  background-color: aqua;
+}
+
+.container {
+  border: 2px solid #333;
+  width: 360px;
+  height: 550px;
+  border-radius: 30px;
+  text-align: center;
+
+  margin: 30px auto;
+}
+
+img {
+  border-radius: 28px;
+  object-fit: cover;
+  width: 360px;
+  height: 290px;
+}
+
+p {
+  font-size: 1.5rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
